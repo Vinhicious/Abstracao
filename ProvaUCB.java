@@ -6,7 +6,6 @@ class ProvaUCB extends ProvaUniversidade {
         super(AV1, AV2);
     }
     
-    
     public boolean Aprovado(){
         double media = calcularMedia();
         return media >= 7.0;

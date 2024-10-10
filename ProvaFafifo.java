@@ -6,7 +6,6 @@ class ProvaFafifo extends ProvaUniversidade{
         super(AV1, AV2);
     }
     
- 
     public boolean Aprovado(){
         double media = calcularMedia();
         return media >= 6.0;
